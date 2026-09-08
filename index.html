@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Help Me Help You</title>
+
+    <meta
+        name="description"
+        content="Help Me Help You helps students and job seekers create professional CVs and discover opportunities."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-symbol">H</span>
+
+            <span class="logo-text">
+                HELP ME <strong>HELP YOU</strong>
+            </span>
+        </a>
+
+        <button class="menu-button" id="menuButton" aria-label="Open menu">
+            ☰
+        </button>
+
+        <nav id="navigation">
+
+            <a href="#home">Home</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#meet-the-founder">Meet the Founder</a>
+            <a href="#contact" class="nav-cta">Get in touch</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-label">
+            YOUR SKILLS. YOUR STORY. YOUR NEXT OPPORTUNITY.
+        </div>
+
+        <h1>
+            Help me help you
+            <span>find your next opportunity.</span>
+        </h1>
+
+        <p>
+            A simple platform designed to help students and job seekers
+            turn their skills, experiences and goals into a professional CV
+            and discover opportunities suitable.
+        </p>
+
+        <div class="">
+
+            <a href="" class=" primary">
+                
+            </a>
+
+            <a href="" class="secondary">
+                
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+
+        <div class="cv-card">
+
+            <div class="cv-header">
+
+                <div class="cv-avatar">
+                    YOU
+                </div>
+
+                <div>
+                    <h3>Your Name</h3>
+                    <p>Future Professional</p>
+                </div>
+
+            </div>
+
+            <div class="cv-divider"></div>
+
+            <div class="cv-heading">
+                PROFILE
+            </div>
+
+            <div class="fake-line long"></div>
+            <div class="fake-line medium"></div>
+            <div class="fake-line short"></div>
+
+            <div class="cv-columns">
+
+                <div>
+
+                    <div class="cv-heading">
+                        SKILLS
+                    </div>
+
+                    <span class="mini-tag">Communication</span>
+                    <span class="mini-tag">Teamwork</span>
+                    <span class="mini-tag">Problem Solving</span>
+
+                </div>
+
+                <div>
+
+                    <div class="cv-heading">
+                        EXPERIENCE
+                    </div>
+
+                    <div class="fake-line medium"></div>
+                    <div class="fake-line short"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="floating-message">
+            ✦ Your potential matters
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     HOW IT WORKS
+===================================================== -->
+
+<section class="section" id="how-it-works">
+
+    <div class="section-title">
+
+        <span>HOW IT WORKS</span>
+
+
+
+    </div>
+
+
+    <div class="steps">
+
+        <div class="step">
+
+            <div class="step-number">01</div>
+
+            <h3>Tell us about yourself</h3>
+
+            <p>
+                Complete a short questionnaire about your education,
+                experience, skills and career interests.
+            </p>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">02</div>
+
+            <h3>We create your CV</h3>
+
+            <p>
+                Your information is organised into a professional CV
+                that presents your skills and experience clearly.
+            </p>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">03</div>
+
+            <h3>We stay connected</h3>
+
+            <p>
+                We find opportunities and contact you.
+            </p>
+
+        </div>
+
+
+        
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+</section>
+
+
+<!-- =====================================================
+     PAYMENT MODAL
+===================================================== -->
+
+<div class="modal" id="paymentModal">
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="closeModal">
+            ×
+        </button>
+
+        <div class="modal-symbol">
+            H
+        </div>
+
+        <h2>
+            Let's get started.
+        </h2>
+
+        <p>
+            The payment section is currently a demonstration.
+            Clicking the button below will unlock the questionnaire.
+        </p>
+
+        <div class="payment-summary">
+
+            <div>
+                <span>Service</span>
+                <strong>CV + Opportunity Search</strong>
+            </div>
+
+            <div>
+                <span>Total</span>
+                <strong>R100</strong>
+            </div>
+
+        </div>
+
+        <button class="button primary full" id="completePayment">
+            Continue
+        </button>
+
+        <small class="demo-text">
+            Demo payment — no real payment is processed.
+        </small>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     CV QUESTIONNAIRE
+===================================================== -->
+
+<section class="questionnaire-section" id="questionnaire">
+
+    <div class="questionnaire-intro">
+
+        <span>YOUR PROFILE</span>
+
+        <h2>
+            Tell me your story.
+        </h2>
+
+        <p>
+            Your answers help me understand you and build your profile.
+        </p>
+
+    </div>
+
+
+    <!-- LOCKED -->
+
+    <div class="locked-card" id="lockedCard">
+
+        <div class="lock">
+            🔒
+        </div>
+
+        <h3>
+            Your questionnaire is locked.
+        </h3>
+
+        <p>
+            Get started above to unlock it.
+        </p>
+
+        <button class="button primary" id="unlockButton">
+            Unlock Questionnaire
+        </button>
+
+    </div>
+
+
+    <!-- QUESTIONNAIRE -->
+
+    <div class="questionnaire hidden" id="questionnaireBox">
+
+        <div class="progress">
+
+            <div class="progress-top">
+                <span id="stepText">Step 1 of 4</span>
+                <span id="percentage">25%</span>
+            </div>
+
+            <div class="progress-background">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+        </div>
+
+
+        <form id="cvForm">
+
+
+            <!-- STEP 1 -->
+
+            <div class="form-step active" data-step="1">
+
+                <h3>
+                    About You
+                </h3>
+
+                <p class="form-description">
+                    Let's start with some basic information.
+                </p>
+
+                <div class="input-grid">
+
+                    <label>
+                        Full Name
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Your full name"
+                            required
+                        >
+
+                    </label>
+
+
+                    <label>
+                        Email Address
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Your email address"
+                            required
+                        >
+
+                    </label>
+
+
+                    <label>
+                        WhatsApp / Phone
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="+27..."
+                        >
+
+                    </label>
+
+
+                    <label>
+                        Location
+
+                        <input
+                            type="text"
+                            id="location"
+                            placeholder="Your town or city"
+                        >
+
+                    </label>
+
+                </div>
+
+
+                <label>
+                    Tell me about yourself
+
+                    <textarea
+                        id="about"
+                        placeholder="Tell me about yourself, your strengths, interests and what you would like to achieve..."
+                        required
+                    ></textarea>
+
+                </label>
+
+            </div>
+
+
+            <!-- STEP 2 -->
+
+            <div class="form-step" data-step="2">
+
+                <h3>
+                    Education & Experience
+                </h3>
+
+                <p class="form-description">
+                    Formal work experience is not required.
+                </p>
+
+
+                <label>
+                    Education
+
+                    <textarea
+                        id="education"
+                        placeholder="Your school, college, university, qualification or course..."
+                    ></textarea>
+
+                </label>
+
+
+                <label>
+                    Work Experience
+
+                    <textarea
+                        id="experience"
+                        placeholder="Jobs, internships, volunteering, family business or other experience..."
+                    ></textarea>
+
+                </label>
+
+
+                <label>
+                    Achievements & Projects
+
+                    <textarea
+                        id="achievements"
+                        placeholder="Projects, awards, leadership, sports, creative work or anything you are proud of..."
+                    ></textarea>
+
+                </label>
+
+            </div>
+
+
+            <!-- STEP 3 -->
+
+            <div class="form-step" data-step="3">
+
+                <h3>
+                    Your Skills
+                </h3>
+
+                <p class="form-description">
+                    Add the skills you believe represent you.
+                </p>
+
+
+                <div class="skill-entry">
+
+                    <input
+                        type="text"
+                        id="skillInput"
+                        placeholder="Type a skill"
+                    >
+
+                    <button
+                        type="button"
+                        class="add-button"
+                        id="addSkill"
+                    >
+                        + Add
+                    </button>
+
+                </div>
+
+
+                <div class="skills" id="skillsList"></div>
+
+
+                <label>
+                    Other Skills
+
+                    <textarea
+                        id="otherSkills"
+                        placeholder="Anything else you can do..."
+                    ></textarea>
+
+                </label>
+
+            </div>
+
+
+            <!-- STEP 4 -->
+
+            <div class="form-step" data-step="4">
+
+                <h3>
+                    What Are You Looking For?
+                </h3>
+
+                <p class="form-description">
+                    This helps me understand the opportunities you may be interested in.
+                </p>
+
+
+                <label>
+                    Type of Opportunity
+
+                    <select id="jobType">
+
+                        <option value="">
+                            Select an option
+                        </option>
+
+                        <option>
+                            Part-time job
+                        </option>
+
+                        <option>
+                            Full-time job
+                        </option>
+
+                        <option>
+                            Internship
+                        </option>
+
+                        <option>
+                            Graduate opportunity
+                        </option>
+
+                        <option>
+                            Learnership
+                        </option>
+
+                        <option>
+                            Any suitable opportunity
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+                <label>
+                    Preferred Industry
+
+                    <input
+                        type="text"
+                        id="industry"
+                        placeholder="e.g. Science, Technology, Retail..."
+                    >
+
+                </label>
+
+
+                <label>
+                    Anything else you want me to know?
+
+                    <textarea
+                        id="jobNotes"
+                        placeholder="Tell me about your goals or anything else that may help..."
+                    ></textarea>
+
+                </label>
+
+
+                <label class="consent">
+
+                    <input
+                        type="checkbox"
+                        id="jobConsent"
+                    >
+
+                    <span>
+                        I would like to be contacted about suitable opportunities.
+                    </span>
+
+                </label>
+
+            </div>
+
+
+            <!-- FORM BUTTONS -->
+
+            <div class="form-buttons">
+
+                <button
+                    type="button"
+                    class="button secondary hidden"
+                    id="previousButton"
+                >
+                    ← Back
+                </button>
+
+                <button
+                    type="button"
+                    class="button primary"
+                    id="nextButton"
+                >
+                    Continue →
+                </button>
+
+                <button
+                    type="submit"
+                    class="button primary hidden"
+                    id="submitButton"
+                >
+                    Save My Information
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+</section>
+
+
+<!-- =====================================================
+     MEET THE FOUNDER
+===================================================== -->
+
+<section class="founder-section" id="meet-the-founder">
+
+    <div class="meet-the-founder-container">
+
+        <div class="meet-the-founder-heading">
+
+          <span>Meet the Founder</span>
+
+    
+
+        </div>
+
+
+        <div class="founder-card">
+
+            <div class="founder-photo">
+
+                <div class="founder-initials">
+                    SN
+                </div>
+
+            </div>
+
+
+            <div class="founder-text">
+
+                <p>
+                    Hi, I'm <strong>Sthabile Nzama</strong>, the founder of
+                    <strong>Help Me Help You</strong>.
+                </p>
+
+                <p>
+                    I'm a 21-year-old web developer, Licensed Esport player, bead artisan, as well as a Biology student.
+                    I come from a background that has taught me the importance
+                    of determination, creativity and creating opportunities
+                    for yourself.
+                </p>
+
+                <p>
+                    I may not have come from a privileged background, but I have
+                    always believed that your starting point does not have to
+                    determine where you end up. Throughout my journey, I have
+                    explored different skills and interests—from science and
+                    technology to esports and entrepreneurship.
+                </p>
+
+                <p>
+                    I created <strong>Help Me Help You</strong> because I
+                    understand how challenging it can be for students and young
+                    people to find opportunities. Sometimes people have the
+                    skills and potential but struggle to present themselves
+                    professionally or simply don't know where to look.
+                </p>
+
+                <p>
+                    My goal is to make that process easier.
+                </p>
+
+                <p>
+                    Through this platform, I help students and job
+                    seekers create professional CVs and stay informed about
+                    opportunities that may match their interests and career
+                    goals.
+                </p>
+
+                <p>
+                    I'm building this platform one step at a time, with one
+                    simple belief:
+                </p>
+
+                <div class="founder-belief">
+                    "Help Me Help You"
+                </div>
+
+                <p>
+                    When we support each other and share opportunities, we can
+                    all move closer to where we want to be.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT / END
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+        <span>
+            GET IN TOUCH
+        </span>
+
+        <h2>
+        
+        </h2>
+
+        <p>
+            Do you want me to web design or bead craft for you ? click the below for more info.
+        </p>
+
+        <a
+            href="https://wa.me/27721291983"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="whatsapp-button"
+        >
+            WhatsApp Me
+        </a>
+
+        <div 
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     END
+===================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
